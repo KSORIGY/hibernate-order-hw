@@ -86,5 +86,7 @@ public class Main {
         ShoppingCart cart = shoppingCartService.getByUser(denys);
 
         Order order = orderService.completeOrder(cart);
+
+        System.out.println(orderService.getOrdersHistory(denys));
     }
 }

@@ -8,5 +8,5 @@ import mate.academy.model.User;
 public interface OrderService {
     Order completeOrder(ShoppingCart shoppingCart);
 
-    List<Order> getOrderHistory(User user);
+    List<Order> getOrdersHistory(User user);
 }
